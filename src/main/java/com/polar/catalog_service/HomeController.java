@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String getGreeting() {
-        return "Welcome to the book catalog!";
+        return "Welcome back to the book catalog!";
     }
 
 }
